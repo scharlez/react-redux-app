@@ -24,9 +24,6 @@ function App() {
               <React.Fragment>
               <AddPostForm />
               <PostsList />
-              {/* <section>
-                <h2>Welcome to the Redux Essentials example app!</h2>
-              </section> */}
               </React.Fragment>
             )}
           />
