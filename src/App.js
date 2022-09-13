@@ -24,10 +24,10 @@ function App() {
               <React.Fragment>
               <AddPostForm />
               <PostsList />
-              </React.Fragment>
-              <section>
+              {/* <section>
                 <h2>Welcome to the Redux Essentials example app!</h2>
-              </section>
+              </section> */}
+              </React.Fragment>
             )}
           />
           <Route exact path="/posts/:postId" component={SinglePostPage} />
